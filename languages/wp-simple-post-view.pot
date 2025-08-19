@@ -1,0 +1,131 @@
+# Copyright (C) 2025 Naresh Parmar
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Post View Count 1.0\n"
+"Report-Msgid-Bugs-To: nareshparmar827@gmail.com\n"
+"POT-Creation-Date: 2025-08-08 12:43+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Manual\n"
+"X-Domain: simple-post-view\n"
+
+#: includes/settings.php:55
+msgid "Post View Settings"
+msgstr ""
+
+#: includes/settings.php:67
+msgid "How to Use the Shortcode"
+msgstr ""
+
+#: includes/settings.php:68
+msgid "To display the view count for a post on your website’s frontend, use the <code>[spvc-single-post-view]</code> shortcode in your post or page content. This will show the view count for the current post."
+msgstr ""
+
+#: includes/settings.php:69
+msgid "To display the view count for a specific post, include the post ID like this: <code>[spvc-single-post-view id=\"123\"]</code>, where <code>123</code> is the ID of the post."
+msgstr ""
+
+#: includes/settings.php:70
+msgid "You can add the shortcode using the WordPress editor (Classic or Block Editor) or in a widget area that supports shortcodes."
+msgstr ""
+
+#: includes/settings.php:76
+msgid "Reset Post View Data"
+msgstr ""
+
+#: includes/settings.php:84
+msgid "Are you sure you want to reset?"
+msgstr ""
+
+#: includes/settings.php:92
+#: includes/settings.php:197
+msgid "View Logs"
+msgstr ""
+
+#: includes/settings.php:95
+#: includes/settings.php:200
+msgid "Text Edit Settings"
+msgstr ""
+
+#: includes/settings.php:100
+msgid "Post View Text"
+msgstr ""
+
+#: includes/settings.php:104
+msgid "Post View Text Color"
+msgstr ""
+
+#: includes/settings.php:108
+msgid "Post View Title Color"
+msgstr ""
+
+#: includes/settings.php:126
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/settings.php:137
+msgid "Post view data reset successfully!"
+msgstr ""
+
+#: includes/settings.php:138
+msgid "An error occurred while resetting post view data."
+msgstr ""
+
+#: includes/settings.php:145
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: includes/settings.php:146
+msgid "Security Error"
+msgstr ""
+
+#: includes/settings.php:183
+msgid "Error: View logs table is missing. Please deactivate and reactivate the plugin to create the table, or contact support."
+msgstr ""
+
+#: includes/settings.php:218
+msgid "Export to CSV"
+msgstr ""
+
+#: includes/settings.php:223
+msgid "Total Views in Last 24 Hours: %d"
+msgstr ""
+
+#: includes/settings.php:246
+msgid "Date"
+msgstr ""
+
+#: includes/settings.php:247
+msgid "Daily Views"
+msgstr ""
+
+#: includes/settings.php:252
+msgid "No view data available for the last 30 days."
+msgstr ""
+
+#: includes/settings.php:265
+msgid "Total Last 30 Days"
+msgstr ""
+
+#: includes/settings.php:274
+msgid "&laquo; Previous"
+msgstr ""
+
+#: includes/settings.php:275
+msgid "Next &raquo;"
+msgstr ""
+
+#: wp-simple-post-view.php:73
+msgid "Post View"
+msgstr ""
+
+#: wp-simple-post-view.php:124
+msgid "Post View Count Settings"
+msgstr ""

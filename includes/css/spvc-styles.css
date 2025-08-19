@@ -1,0 +1,125 @@
+/**
+ * Dynamic CSS for Post View Count plugin.
+ *
+ * @package Simple_Post_View
+ * @license GPLv2 or later
+ * @license URI http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/* Admin: Help section styling */
+.wp-spv-help-section {
+    background: #f1f1f1;
+    padding: 15px;
+    border-left: 4px solid #0073aa;
+    margin-bottom: 20px;
+}
+
+.wp-spv-help-section h2 {
+    margin-top: 0;
+}
+
+.wp-spv-help-section code {
+    background: #fff;
+    padding: 2px 5px;
+}
+
+/* View logs table styling */
+.wp-spv-view-logs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.wp-spv-view-logs-table th,
+.wp-spv-view-logs-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.wp-spv-view-logs-table th {
+    background-color: #f2f2f2;
+}
+
+.wp-spv-view-logs-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.wp-spv-view-logs-table tfoot {
+    font-weight: bold;
+}
+
+.wp-spv-pagination {
+    margin-top: 20px;
+}
+
+.wp-spv-pagination .page-numbers {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color: #0073aa;
+}
+
+.wp-spv-pagination .page-numbers.current {
+    background-color: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}
+
+/* Modal styling */
+.wp-spv-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.wp-spv-modal.active {
+    display: block;
+}
+
+.wp-spv-modal-content {
+    background: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.wp-spv-modal-content h2 {
+    margin: 0 0 15px;
+    font-size: 1.3em;
+    color: #23282d;
+}
+
+.wp-spv-modal-content p {
+    margin: 0 0 20px;
+    color: #444;
+}
+
+.wp-spv-modal-buttons {
+    text-align: right;
+}
+
+.wp-spv-modal-buttons .button {
+    margin-left: 10px;
+}
+
+.wp-spv-modal-buttons .button-primary {
+    background: #0073aa;
+    border-color: #006799;
+    color: #fff;
+}
+
+.wp-spv-modal-buttons .button-primary:hover {
+    background: #006799;
+    border-color: #005177;
+}
