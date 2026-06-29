@@ -1,0 +1,15 @@
+
+# Ignore .svn file
+.svn/
+
+# Ignore local OS junk files
+Thumbs.db
+.DS_Store
+
+# Ignore development folders
+node_modules/
+vendor/
+
+# Ignore local config or log files
+.env
+*.log
