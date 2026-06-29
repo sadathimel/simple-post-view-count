@@ -1,9 +1,10 @@
 === Simple Post View Count ===
 Contributors: themedot,sadathimel
 Tags: post views,post view counter, analytics, shortcode
-Requires at least: 5.0 
+Requires at least: 6.3 
 Tested up to: 6.8
 Stable tag: 1.0.0
+Requires PHP: 7.4 
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -40,11 +41,6 @@ Yes, use the "Reset Post View Data" button in the settings page. This action is 
 
 = Does it work with multisite? =
 Yes, the plugin supports WordPress multisite installations.
-
-== Support the Developer ==
-
-Enjoying Simple Post View Count? Support development by buying the author a coffee:
-☕ [Buy Me a Coffee](https://buymeacoffee.com/5adat)
 
 == Screenshots ==
 1. Settings page for customizing view count text and colors.
