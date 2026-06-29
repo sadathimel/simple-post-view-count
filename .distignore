@@ -1,0 +1,13 @@
+# Block Git and GitHub files from entering WordPress.org
+
+.git/
+.github/
+.gitignore
+.distignore
+
+# Block local development tools or notes
+
+node_modules/
+package.json
+package-lock.json
+README.md
